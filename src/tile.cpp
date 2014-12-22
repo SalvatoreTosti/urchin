@@ -1,8 +1,10 @@
-#include <tile.h>
+#include "tile.h"
+#include "terrain.h"
 
 tile::tile(){
-t_terrain = new terrain();
-
+    terrain t_terrain;
+    
+    
 }
 tile::~tile(){}
 

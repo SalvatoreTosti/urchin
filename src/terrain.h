@@ -5,6 +5,8 @@
 
 #include <string>
 
+using namespace std;
+
 class terrain {
 public:
 	terrain();
