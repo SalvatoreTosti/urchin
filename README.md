@@ -1,9 +1,10 @@
-Urchin
-==============
-A C++ implementation of an "Advanced Wars"-like RTS
+#Urchin
+A C++ implementation of an "Advanced Wars"-like RTS  
 
+##Authors
+Salvatore and Antonio Tosti  
 
-Areas for Development:  
+##Areas for Development  
 Map / World:  
 	Classes:  
    	WorldMap (2D array of Tiles)  
@@ -18,7 +19,13 @@ Map / World:
 		OffenseBonus	(signed)  
 		DefensiveBonus	(signed)  
 		(later) Terrain Condition, how destroyed is cover?  
-		
+
+    Unit:  
+        Name  
+        Accuracy  
+        Attack  
+        Defense  
+        Health Points(HP)  
 
 Units / combat:  
 
