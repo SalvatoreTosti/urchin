@@ -13,14 +13,14 @@ terrain::~terrain(){
 }
 
 //Getters for Terrain
-string getName(){
+string terrain::getName(){
     return name;
 }
 
-int offensiveBonus(){
+int terrain::getOffensiveBonus(){
     return offensiveBonus;
 }
 
-int defensiveBonus(){
+int terrain::getDefensiveBonus(){
     return defensiveBonus;
 }

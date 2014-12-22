@@ -1,6 +1,8 @@
 #include "unit.h"
 #include <string>
 
+using namespace std;
+
 //Constructor assigns empty values
 unit::unit(){
     name = "";
@@ -15,22 +17,22 @@ unit::~unit(){
 }
 
 //Getters for Units
-string getName(){
+string unit::getName(){
     return name;
 }
 
-int getAccuracy(){
+int unit::getAccuracy(){
     return accuracy;
 }
 
-int getAttack(){
+int unit::getAttack(){
     return attack;
 }
 
-int getDefense(){
+int unit::getDefense(){
     return defense;
 }
 
-int getHealth(){
+int unit::getHealth(){
     return health;
 }
