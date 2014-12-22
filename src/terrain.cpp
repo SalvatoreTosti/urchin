@@ -12,6 +12,17 @@ terrain::terrain(){
 terrain::~terrain(){
 }
 
+//Returns name of terrain param
 string getName(terrain t){
     return t.name;
+}
+
+//Returns off. bonus
+int offensiveBonus(terrain t){
+    return t.offensiveBonus;
+}
+
+//Returns def. bonus
+int defensiveBonus(terrain t){
+    return t.defensiveBonus;
 }
