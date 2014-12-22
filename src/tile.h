@@ -11,6 +11,9 @@ class tile{
 public:
     tile();
     ~tile();
+    
+    terrain getTerrain();
+    unit getUnit();
 
 private:
     terrain t_terrain; //Consider better name later
