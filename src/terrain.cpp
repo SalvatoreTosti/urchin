@@ -1,5 +1,6 @@
 #include "terrain.h"
 
+using namespace std;
 //Default constructs with empty params
 terrain::terrain(){
     name = empty_Terrain;
