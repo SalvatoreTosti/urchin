@@ -7,7 +7,6 @@ set tabstop=4 " num of visual spaces per tab
 " UI Config
 set number " show line numbers
 set showcmd " show command in bottom bar
-set cursorline " highlight current line
 set showmatch " highligh matching [{()}]
 
 " Searching
