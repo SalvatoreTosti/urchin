@@ -1,5 +1,5 @@
 
-TORM = terrain.o unit.o tile.o
+TORM = terrain.o unit.o tile.o main main.o
 CC = g++
 CCFLAGS = -g -O3 -Wall -Wpointer-arith -Wcast-qual -Wwrite-strings
 
