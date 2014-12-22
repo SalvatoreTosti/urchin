@@ -5,8 +5,6 @@
 
 #include <string>
 
-using namespace std;
-
 class terrain {
 public:
 	terrain();
@@ -21,3 +19,4 @@ private:
     int offensiveBonus;
     int defensiveBonus;    
 };
+#endif
