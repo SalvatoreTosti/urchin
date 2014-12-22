@@ -18,7 +18,13 @@ Map / World:
 		OffenseBonus	(signed)  
 		DefensiveBonus	(signed)  
 		(later) Terrain Condition, how destroyed is cover?  
-		
+
+    Unit:  
+        Name  
+        Accuracy  
+        Attack  
+        Defense  
+        Health Points(HP)  
 
 Units / combat:  
 
