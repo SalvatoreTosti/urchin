@@ -12,6 +12,12 @@ public:
 	terrain();
 	~terrain();
 	
-	string getName(void);
-	
-}
+    string getName();
+    int getOffensiveBonus();
+    int getDefensiveBonus();
+
+private:
+    string name;
+    int offensiveBonus;
+    int defensiveBonus;    
+};
