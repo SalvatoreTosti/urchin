@@ -1,10 +1,10 @@
 #Urchin
 A C++ implementation of an "Advanced Wars"-like RTS  
 
-#Authors
+##Authors
 Salvatore and Antonio Tosti  
 
-#Areas for Development  
+##Areas for Development  
 Map / World:  
 	Classes:  
    	WorldMap (2D array of Tiles)  
