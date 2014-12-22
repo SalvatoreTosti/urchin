@@ -1,28 +1,26 @@
 #include "terrain.h"
 
 using namespace std;
-//Default constructs with empty params
+//Default constructs with empty values
 terrain::terrain(){
-    name = empty_Terrain;
-    offensiveBonus = empty_Offensive_Bonus;
-    defensiveBonus = empty_Defensive_Bonus;
+    name = "";
+    offensiveBonus = 0;
+    defensiveBonus = 0;
 }
 
-//Destructor does nothing, no mem allocated
+//Destructor does nothing
 terrain::~terrain(){
 }
 
-//Returns name of terrain param
-string getName(terrain t){
-    return t.name;
+//Getters for Terrain
+string getName(){
+    return name;
 }
 
-//Returns off. bonus
-int offensiveBonus(terrain t){
-    return t.offensiveBonus;
+int offensiveBonus(){
+    return offensiveBonus;
 }
 
-//Returns def. bonus
-int defensiveBonus(terrain t){
-    return t.defensiveBonus;
+int defensiveBonus(){
+    return defensiveBonus;
 }
