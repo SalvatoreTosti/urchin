@@ -1,4 +1,6 @@
 #include <iostream>
+#include "terrain.h"
+#include "tile.h"
 
 using namespace std;
 
