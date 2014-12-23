@@ -1,4 +1,4 @@
-#include "dummy-main.hpp"
+#include "catch-main.hpp"
 #include "../src/terrain.h"
 #include "../src/unit.h"
 

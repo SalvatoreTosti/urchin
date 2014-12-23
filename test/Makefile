@@ -7,7 +7,7 @@ OBJECT_FILES = ../src/terrain.o ../src/unit.o ../src/tile.o
 
 unit-test: 
 	cd ${SOURCE_CODE_DIR} ; make main.o
-	g++ test-main.cpp ${OBJECT_FILES}
+	g++ -o test test-main.cpp ${OBJECT_FILES}
 
 clean:
 	rm -f ${TORM} 
