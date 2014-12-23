@@ -4,10 +4,13 @@ CC = g++
 CCFLAGS = -g -O3 -Wall -Wpointer-arith -Wcast-qual -Wwrite-strings
 
 main: main.o
-	${CC} ${CCFLAGS} -o main main.o unit.o terrain.o
+	${CC} ${CCFLAGS} -o main main.o unit.o terrain.o tile.o
 
-main.o: main.cpp unit.o terrain.o
+main.o: main.cpp unit.o terrain.o tile.o
 	${CC} ${CCFLAGS} -c main.cpp
+
+tile.o: unit.o terrain.o
+	${CC} ${CCFLAGS} -c tile.cpp
 
 unit.o:	unit.cpp unit.h
 	${CC} ${CCFLAGS} -c unit.cpp

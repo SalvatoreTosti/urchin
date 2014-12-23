@@ -1,20 +1,33 @@
 #define CATCH_CONFIG_MAIN
 #include "catch.hpp"
 #include "../src/terrain.h"
+#include "../src/unit.h"
 
 unsigned int Factorial (unsigned int number ){
     return number <= 1 ? number: Factorial(number-1)*number; }
 
-TEST_CASE( "Factorials are computed","[factorial]" ){
-    REQUIRE( Factorial(1) == 1 ); 
-    REQUIRE( Factorial(2) == 2 );}
+//Example of how test cases and tags work.
+//TEST_CASE( "Factorials are computed","[factorial]" ){
+//    REQUIRE( Factorial(1) == 1 ); 
+//    REQUIRE( Factorial(2) == 2 );}
 
-//TEST_CASE( "Addition of 2 numbers","[additon]" ){
-//    REQUIRE( (1 + 2) == 3);}
-
-TEST_CASE( "getters return terrain values","[terrain]"){
-    terrain t;
-    SECTION( "getting values from default returns valid values"){
-        REQUIRE( t.getName() == "");
+TEST_CASE( "terrain getters and setters" ){
+    SECTION( "getting values from default constructor" ){
+        terrain t;
+        REQUIRE(t.getName() == "");
+        REQUIRE(t.getOffensiveBonus() == 0);
+        REQUIRE(t.getDefensiveBonus() == 0);
         }
     }
+
+TEST_CASE("unit getters and setters"){
+    SECTION("getting values from default constructor"){
+        unit u;
+        REQUIRE(u.getName() == "");
+        REQUIRE(u.getAccuracy() == 0);
+        REQUIRE(u.getAttack() == 0);
+        REQUIRE(u.getDefense() == 0);
+        REQUIRE(u.getHealth() == 0);
+        }
+    }
+
