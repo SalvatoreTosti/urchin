@@ -1,0 +1,23 @@
+Organization and Coding Style and Standards for Urchin Project
+
+Directories:
+    Naming: lowercase seperated by "-" when spaces required
+
+Files:
+    Naming: lowercase seperated by "-" when spaces required
+
+Classes:
+    Naming: Camel case seperated by "_" (underscore) when spaces required
+
+Methods:
+    Naming: Camel case seperated by "_" (underscore) when spaces required
+
+Local Variables:
+
+Global Variables:
+
+Other Aspects of Styles:
+Tabs should be emulated using 4 spaces.
+
+Some aspects of coding style are formalized in .vimrc file available in developer-resources.
+
