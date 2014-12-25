@@ -4,6 +4,7 @@
 #define TERRAIN_FACTORY_H
 
 #include <string>
+#include "terrain.h"
 
 using namespace std;
 
@@ -13,7 +14,7 @@ public:
     terrain_factory();
     ~terrain_factory();
     
-    makePlains();
+    terrain makePlains();
 
 private:
 

@@ -6,10 +6,12 @@ using namespace std;
 terrain::terrain(){
     name = "";
     offensiveBonus = 0;
-    defensiveBonus = 0;
-}
+    defensiveBonus = 0;}
 
-terrain::terrain(string n, int offensive, int defensive){}    
+terrain::terrain(string n, int offensive, int defensive){
+    name = n;
+    offensiveBonus = offensive;
+    defensiveBonus = defensive;}    
 
 terrain::~terrain(){}
 
