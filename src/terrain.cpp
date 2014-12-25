@@ -1,6 +1,7 @@
 #include "terrain.h"
 
 using namespace std;
+
 //Default constructs with empty values
 terrain::terrain(){
     name = "";
@@ -8,19 +9,18 @@ terrain::terrain(){
     defensiveBonus = 0;
 }
 
-//Destructor does nothing
-terrain::~terrain(){
-}
+terrain::terrain(string n, int offensive, int defensive){}    
 
-//Getters for Terrain
-string terrain::getName(){
-    return name;
-}
+terrain::~terrain(){}
 
-int terrain::getOffensiveBonus(){
-    return offensiveBonus;
-}
+//Getters
+string terrain::getName(){return name;}
+int terrain::getOffensiveBonus(){return offensiveBonus;}
+int terrain::getDefensiveBonus(){return defensiveBonus;}
 
-int terrain::getDefensiveBonus(){
-    return defensiveBonus;
-}
+//Setters
+void terrain::setName(string n){name = n;}
+void terrain::setOffensiveBonus(int offensive){offensiveBonus = offensive;}
+void terrain::setDefensiveBonus(int defensive){defensiveBonus = defensive;}
+
+
