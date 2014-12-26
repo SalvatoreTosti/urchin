@@ -1,4 +1,4 @@
-/* unit_factory.h*/
+/* unit_factory.h */
 
 #ifndef UNIT_FACTORY_H
 #define UNIT_FACTORY_H

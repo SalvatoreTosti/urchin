@@ -4,6 +4,8 @@
 #include "terrain_fact_test.h"
 #include "../src/unit.h"
 #include "unit_fact_test.h"
+#include "tile_fact_test.h"
+
 unsigned int Factorial (unsigned int number ){
     return number <= 1 ? number: Factorial(number-1)*number; }
 
