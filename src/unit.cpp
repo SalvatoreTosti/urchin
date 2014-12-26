@@ -12,6 +12,14 @@ unit::unit(){
     health = 0;
 }
 
+unit::unit(string name, int acc, int atk, int def, int hp){
+    name = name;
+    accuracy = acc;
+    attack = atk;
+    defense = def;
+    health = hp;
+}
+
 //Destructor does nothing
 unit::~unit(){
 }
