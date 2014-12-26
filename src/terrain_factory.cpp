@@ -8,7 +8,7 @@ terrain_factory::~terrain_factory(){}
 
 
 terrain terrain_factory::makePlains(){ 
-    //terrain("Plains",1,1) t;
-    terrain t;
+    terrain t = terrain("Plains",1,1);
+    //terrain t;
     return t;}
 

@@ -1,13 +1,13 @@
 
-TORM = unit-test unit-test.o
+TORM = test
 CC = g++
 CCFLAGS = -g -O3 -Wall -Wpointer-arith -Wcast-qual -Wwrite-strings
 SOURCE_CODE_DIR = ../src/
-OBJECT_FILES = ../src/terrain.o ../src/unit.o ../src/tile.o
+OBJECT_FILES = ../src/terrain.o ../src/unit.o ../src/tile.o ../src/terrain_factory.o
 
 unit-test: 
 	cd ${SOURCE_CODE_DIR} ; make main.o
-	g++ -o test test-main.cpp ${OBJECT_FILES}
+	g++ -o test test_main.cpp ${OBJECT_FILES}
 
 clean:
 	rm -f ${TORM} 
