@@ -12,8 +12,8 @@ unit::unit(){
     health = 0;
 }
 
-unit::unit(string name, int acc, int atk, int def, int hp){
-    name = name;
+unit::unit(string n, int acc, int atk, int def, int hp){
+    name = n;
     accuracy = acc;
     attack = atk;
     defense = def;
