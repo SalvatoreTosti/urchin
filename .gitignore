@@ -1,4 +1,4 @@
 *.o
 main
 *.out
-test
+test/test
