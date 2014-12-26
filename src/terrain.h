@@ -10,9 +10,9 @@ using namespace std;
 class terrain {
 public:
 	terrain();
-	~terrain();
     terrain(string, int, int);
-	
+    ~terrain();	
+
     string getName();
     int getOffensiveBonus();
     int getDefensiveBonus();
