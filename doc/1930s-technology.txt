@@ -30,6 +30,7 @@ http://www.militaryfactory.com/armor/detail.asp?armor_id=557
 http://en.wikipedia.org/wiki/M12_Gun_Motor_Carriage
 http://en.wikipedia.org/wiki/M3_Gun_Motor_Carriage
 http://en.wikipedia.org/wiki/M114_155_mm_howitzer
+http://en.wikipedia.org/wiki/Portee
 
 1930s era Light armored vehicles
 http://en.wikipedia.org/wiki/M3_Half-track
@@ -37,6 +38,7 @@ http://en.wikipedia.org/wiki/M6_Gun_Motor_Carriage
 http://en.wikipedia.org/wiki/M3_Scout_Car
 http://www.militaryfactory.com/armor/detail.asp?armor_id=621
 http://en.wikipedia.org/wiki/90_mm_Gun_M1/M2/M3
+http://en.wikipedia.org/wiki/Armadillo_armoured_fighting_vehicle
 
 1930s era Light vehicles
 http://www.militaryfactory.com/armor/detail.asp?armor_id=367
@@ -51,3 +53,8 @@ http://www.militaryfactory.com/armor/detail.asp?armor_id=703
 Other Resources:
 http://en.wikipedia.org/wiki/Motorized_infantry
 http://en.wikipedia.org/wiki/Mechanized_infantry
+http://en.wikipedia.org/wiki/Gun_truck
+http://en.wikipedia.org/wiki/Technical_%28vehicle%29
+http://en.wikipedia.org/wiki/Long_Range_Desert_Group
+http://en.wikipedia.org/wiki/File:Fordson_Armoured_Car_Iraq.jpg
+http://en.wikipedia.org/wiki/File:Rolls_Royce_1920_Mk1_1_Bovington.jpg
