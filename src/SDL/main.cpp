@@ -1,4 +1,5 @@
 #include <SDL2/SDL.h>
+//#include <sdl.h> //<SDL2/SDL.h> equivalent for OSX
 #include <stdio.h>
 
 const int SCREEN_WIDTH = 640;

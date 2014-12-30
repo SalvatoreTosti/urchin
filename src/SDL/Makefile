@@ -10,7 +10,7 @@ CC = g++
 CCFLAGS = -w
 OBJS = main.cpp
 LKFLAGS = -lSDL2
-OBJNAME = test
+OBJNAME = SDL_main
 
 #linux compile prefered
 
