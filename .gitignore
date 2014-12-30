@@ -3,3 +3,4 @@ main
 *.out
 test/test
 /SDL
+/src/SDL/test
