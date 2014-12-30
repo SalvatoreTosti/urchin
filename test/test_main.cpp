@@ -1,10 +1,12 @@
 #include "catch_main.hpp"
 //#include "../src/terrain.h"
-#include "terrain_test.h"
-#include "terrain_fact_test.h"
-#include "../src/unit.h"
-#include "unit_fact_test.h"
-#include "tile_fact_test.h"
+#include "test_headers/terrain_test.h"
+#include "test_headers/terrain_fact_test.h"
+//#include "../src/unit.h"
+#include "test_headers/unit_fact_test.h"
+#include "test_headers/tile_fact_test.h"
+
+//#include "test_headers/*.h"
 
 unsigned int Factorial (unsigned int number ){
     return number <= 1 ? number: Factorial(number-1)*number; }

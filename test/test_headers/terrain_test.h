@@ -1,5 +1,5 @@
-#include "catch.hpp"
-#include "../src/terrain.h"
+#include "../catch.hpp"
+#include "../../src/components/terrain.h"
 
 TEST_CASE( "terrain getters and setters" ){
     SECTION( "getting values from default constructor" ){

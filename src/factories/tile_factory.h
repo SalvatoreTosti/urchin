@@ -3,7 +3,7 @@
 #ifndef TILE_FACTORY_H
 #define TILE_FACTORY_H
 
-#include "tile.h"
+#include "../components/tile.h"
 
 using namespace std;
 
