@@ -5,25 +5,25 @@
   - Rifleman  
   - Sniper  
 
-Heavy infantry  
-	Anti-tank(Bazooka)  
-	Machine gunner  
-	Anti-tank Rifleman  
+* Heavy infantry  
+  - Anti-tank(Bazooka)  
+  - Machine gunner  
+  - Anti-tank Rifleman  
 
-Tanks  
-	Light  
-	Heavy  
+* Tanks  
+  - Light  
+  - Heavy  
 
-Artillery  
-	Towed  
+* Artillery  
+  -Towed  
 
-Armor vehicles  
-	Halftrack  
-	Scout car  
+* Armor vehicles  
+  - Halftrack  
+  - Scout car  
 
-Light vehicles  
-	Jeep  
-	Motorbike  
+* Light vehicles  
+  -Jeep  
+  -Motorbike  
 
 ##Combat:  
 Pseudocode:
