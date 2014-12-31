@@ -7,15 +7,21 @@ using namespace std;
 
 int main(){
     
-    
+    //TO DO:
+    //Rendering
+    //Should be constant and continuous regardless of user input
+
+    //Player input
+
+    //Recalculation
+
+
     //Adhoc unit testing
     //terrain tests
    
     terrain t;   
  
     //unit tests
-    
-    
     
     //tile tests
 
