@@ -34,10 +34,10 @@ void combatDamage(unit atk, unit def)
     totalAttack = totalAttack * damageRange(atk);  
     totalAttack = totalAttack - (totalAttack * def.defense);  
     atk.hp = atk.hp - totalAttack;  
------------------
+	
 int damageRange(unit atk, unit def)  
     return randomBetween(atk.lowDamageRange,hiDamageRange)  
-----------------
+	
 int calcCurrAttack(unit atk)  
     return healthPercent(atk) * atk.attack;  
 
