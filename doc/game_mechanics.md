@@ -28,13 +28,14 @@ Light vehicles
 ##Combat:  
 Pseudocode:
 -----------------
+````
 void combatDamage(unit atk, unit def)
 	totalAttack = calcCurrAttack(atk);  
 	totalAttack = (totalAttack * def.susceptability);   
 	totalAttack = totalAttack * damageRange(atk);  
 	totalAttack = totalAttack - (totalAttack * def.defense);  
 	atk.hp = atk.hp - totalAttack;  
-	
+````	
 int damageRange(unit atk, unit def)  
 	return randomBetween(atk.lowDamageRange,hiDamageRange)  
 	
