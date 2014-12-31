@@ -4,7 +4,7 @@
 #define UNIT_FACTORY_H
 
 #include <string>
-#include "unit.h"
+#include "../components/unit.h"
 
 using namespace std;
 

@@ -1,7 +1,7 @@
 #include <iostream>
-#include "terrain.h"
-#include "unit.h"
-#include "tile.h"
+#include "components/terrain.h"
+#include "components/unit.h"
+#include "components/tile.h"
 
 using namespace std;
 

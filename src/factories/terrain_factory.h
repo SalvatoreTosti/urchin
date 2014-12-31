@@ -4,7 +4,7 @@
 #define TERRAIN_FACTORY_H
 
 #include <string>
-#include "terrain.h"
+#include "../components/terrain.h"
 
 using namespace std;
 
