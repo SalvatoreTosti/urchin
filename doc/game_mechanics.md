@@ -2,44 +2,44 @@
 
 ##Units:  
 Light infantry  
-    Rifleman  
-    Sniper  
+	Rifleman  
+	Sniper  
 
 Heavy infantry  
-    Anti-tank(Bazooka)  
-    Machine gunner  
-    Anti-tank Rifleman  
+	Anti-tank(Bazooka)  
+	Machine gunner  
+	Anti-tank Rifleman  
 
 Tanks  
-    Light  
-    Heavy  
+	Light  
+	Heavy  
 
 Artillery  
-    Towed  
+	Towed  
 
 Armor vehicles  
-    Halftrack  
-    Scout car  
+	Halftrack  
+	Scout car  
 
 Light vehicles  
-    Jeep  
-    Motorbike  
+	Jeep  
+	Motorbike  
 
 ##Combat:  
 Pseudocode:
 -----------------
 void combatDamage(unit atk, unit def)
-    totalAttack = calcCurrAttack(atk);  
-    totalAttack = (totalAttack * def.susceptability);   
-    totalAttack = totalAttack * damageRange(atk);  
-    totalAttack = totalAttack - (totalAttack * def.defense);  
-    atk.hp = atk.hp - totalAttack;  
+	totalAttack = calcCurrAttack(atk);  
+	totalAttack = (totalAttack * def.susceptability);   
+	totalAttack = totalAttack * damageRange(atk);  
+	totalAttack = totalAttack - (totalAttack * def.defense);  
+	atk.hp = atk.hp - totalAttack;  
 	
 int damageRange(unit atk, unit def)  
-    return randomBetween(atk.lowDamageRange,hiDamageRange)  
+	return randomBetween(atk.lowDamageRange,hiDamageRange)  
 	
 int calcCurrAttack(unit atk)  
-    return healthPercent(atk) * atk.attack;  
+	return healthPercent(atk) * atk.attack;  
 
     ####Health:  
     Health is an integer which holds current hp.  
