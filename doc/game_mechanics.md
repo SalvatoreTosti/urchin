@@ -22,12 +22,11 @@
   - Scout car  
 
 * Light vehicles  
-  -Jeep  
-  -Motorbike  
+  - Jeep  
+  - Motorbike  
 
 ##Combat:  
-Pseudocode:
------------------
+###Pseudocode:
 ````
 void combatDamage(unit atk, unit def)
 	totalAttack = calcCurrAttack(atk);  
