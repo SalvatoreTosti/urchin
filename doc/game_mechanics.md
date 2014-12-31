@@ -1,9 +1,9 @@
 #Outline of Game mechanics:  
 
 ##Units:  
-Light infantry  
-	Rifleman  
-	Sniper  
+* Light infantry  
+  - Rifleman  
+  - Sniper  
 
 Heavy infantry  
 	Anti-tank(Bazooka)  
@@ -35,13 +35,15 @@ void combatDamage(unit atk, unit def)
 	totalAttack = totalAttack * damageRange(atk);  
 	totalAttack = totalAttack - (totalAttack * def.defense);  
 	atk.hp = atk.hp - totalAttack;  
+````
 ````	
 int damageRange(unit atk, unit def)  
 	return randomBetween(atk.lowDamageRange,hiDamageRange)  
-	
+````
+````	
 int calcCurrAttack(unit atk)  
 	return healthPercent(atk) * atk.attack;  
-
+````
     ####Health:  
     Health is an integer which holds current hp.  
 	Percent HP will be calculated off this and the total hp of a unit.  
