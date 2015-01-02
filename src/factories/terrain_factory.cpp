@@ -1,5 +1,5 @@
 #include "terrain_factory.h"
-#include "terrain.h"
+#include "../components/terrain.h"
 
 using namespace std;
 

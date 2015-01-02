@@ -1,5 +1,5 @@
 #include "tile_factory.h"
-#include "tile.h"
+#include "../components/tile.h"
 
 using namespace std;
 

@@ -1,6 +1,6 @@
-#include "catch.hpp"
-#include "../src/terrain.h"
-#include "../src/terrain_factory.h"
+#include "../catch.hpp"
+#include "../../src/components/terrain.h"
+#include "../../src/factories/terrain_factory.h"
 
 
 TEST_CASE("Terrain factory 'make' functions"){

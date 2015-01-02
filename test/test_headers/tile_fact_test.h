@@ -1,8 +1,8 @@
-#include "catch.hpp"
-#include "../src/tile.h"
-#include "../src/tile_factory.h"
-#include "../src/unit_factory.h"
-#include "../src/tile_factory.h"
+#include "../catch.hpp"
+#include "../../src/components/tile.h"
+#include "../../src/factories/tile_factory.h"
+#include "../../src/factories/unit_factory.h"
+#include "../../src/factories/tile_factory.h"
 
 TEST_CASE("Tile factory 'make' functions"){
     SECTION("makeTile"){

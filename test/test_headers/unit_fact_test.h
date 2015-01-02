@@ -1,6 +1,6 @@
-#include "catch.hpp"
-#include "../src/unit.h"
-#include "../src/unit_factory.h"
+#include "../catch.hpp"
+#include "../../src/components/unit.h"
+#include "../../src/factories/unit_factory.h"
 
 TEST_CASE("Unit factory 'make' functions"){
     SECTION("makeTank"){
