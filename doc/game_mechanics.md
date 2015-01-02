@@ -15,7 +15,7 @@
   - Heavy  
 
 * Artillery  
-  -Towed  
+  - Towed  
 
 * Armor vehicles  
   - Halftrack  
