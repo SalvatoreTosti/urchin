@@ -1,6 +1,7 @@
 ##To-dos
 - [ ] research event driven programming in SDL
 - [ ] implement basic game render loop using SDL
+- [ ] research general class structure for project
 - [ ] implement combat helper class to handle interactions between units
 - [ ] implement 'susceptability' stat into units
 - [ ] implement 'damage range' stat into units
