@@ -2,30 +2,32 @@
 //#include <sdl.h> //<SDL2/SDL.h> equivalent for OSX
 #include <stdio.h>
 
-const int SCREEN_WIDTH = 640;
-const int SCREEN_HEIGHT = 480;
+#include "render.h"
+//const int SCREEN_WIDTH = 640;
+//const int SCREEN_HEIGHT = 480;
 
-SDL_Window* gWindow = NULL;
-SDL_Surface* gScreenSurface = NULL;
-SDL_Surface* gHelloWorld = NULL;
+//SDL_Window* gWindow = NULL;
+//SDL_Surface* gScreenSurface = NULL;
+//SDL_Surface* gHelloWorld = NULL;
 
-bool init();
-bool loadMedia();
-void close();
+//bool init();
+//bool loadMedia();
+//void close();
 
 int main( int argc, char* args[]){
-    if(!init()){ printf("Failed to initialize!\n");}
+    render render; 
+    if(!render.init()){ printf("Failed to initialize!\n");}
     else{
-        if(!loadMedia()){printf("Failed to load media\n");}
-        else{ SDL_BlitSurface(gHelloWorld,NULL,gScreenSurface,NULL);
-        SDL_UpdateWindowSurface(gWindow);
+        if(!render.loadMedia()){printf("Failed to load media\n");}
+        else{ SDL_BlitSurface(render.getDisplaySurface(),NULL,render.getSDLScreenSurface(),NULL);
+        SDL_UpdateWindowSurface(render.getSDLWindow());
         SDL_Delay(2000);
         }
     }
-    close();
+    render.close();
     return 0;
 }
-
+/*
 bool init(){
     bool success = true;
     if (SDL_Init(SDL_INIT_VIDEO) <0){
@@ -56,3 +58,4 @@ void close(){
     gWindow = NULL;
 
     SDL_Quit();} 
+*/

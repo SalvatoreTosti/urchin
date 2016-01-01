@@ -3,6 +3,11 @@
 #include "components/unit.h"
 #include "components/tile.h"
 
+//include <SDL2/SDL.h>
+//#include <sdl.h> //<SDL2/SDL.h> equivalent for OSX
+//include <stdio.h>
+#include "SDL/render.h"
+
 using namespace std;
 
 int main(){
@@ -11,6 +16,15 @@ int main(){
     //Rendering
     //Should be constant and continuous regardless of user input
 
+    //Rendering test
+/*    const int SCREEN_WIDTH = 640;
+    const int SCREEN_HEIGHT = 480;
+    SDL_Window* gWindow = NULL;
+    SDL_Surface* gScreenSurface = NULL;
+    SDL_Surface* gHelloWorld = NULL;
+*/   
+       
+    
     //Player input
 
     //Recalculation
@@ -19,7 +33,7 @@ int main(){
     //Adhoc unit testing
     //terrain tests
    
-    terrain t;   
+    //terrain t;   
  
     //unit tests
     

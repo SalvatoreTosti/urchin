@@ -8,23 +8,27 @@ EXE = SDL_main
 #Ubuntu enviornment variables
 CC = g++
 CCFLAGS = -w
-OBJS = main.cpp
+OBJS = main.cpp render.o
 LKFLAGS = -lSDL2
 OBJNAME = SDL_main
+
+TORM = *.o SDL_main
 
 #linux compile prefered
 
 linux: $(OBJS)
 	$(CC) $(OBJS) $(CCFLAGS) $(LKFLAGS) -o $(OBJNAME)
 
+render.o: render.cpp render.h
+	$(CC) $(CCFLAGS) $(LKFLAGS) -c render.cpp
+
 mac: $(EXE)
 
 $(EXE): main.o
 		$(CXX) $(LDFLAGS) $< -o $@
 
-main.o: main.cpp
+main.o: main.cpp 
 		$(CXX) $(CXXFLAGS) $< -o $@
-
 clean:
 	rm -f ${TORM} 
 
