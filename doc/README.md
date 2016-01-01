@@ -1,2 +1,2 @@
 #Urchin Documentation
-This is a folder for project documenation and acommpanying design documents.
+This is a folder for project documenation and accompanying design documents.
