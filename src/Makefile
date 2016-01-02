@@ -1,5 +1,5 @@
 
-TORM = *.o
+TORM = *.o main
 CC = g++
 CCFLAGS = -g -O3 -Wall -Wpointer-arith -Wcast-qual -Wwrite-strings
 
