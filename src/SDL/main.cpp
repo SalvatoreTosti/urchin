@@ -29,9 +29,25 @@ int main( int argc, char* args[]){
             if( e.type == SDL_QUIT ){
                 quit = true;
             }    
-            else {
-                //do nothing
+            else if(e.type == SDL_KEYDOWN) {
+                switch(e.key.keysym.sym){
+                case SDLK_UP:
+                    render.loadMedia("hello.bmp"); 
+                    break; 
+                case SDLK_DOWN:
+                    render.loadMedia("helloInvert.bmp"); 
+                    break;
+                case SDLK_LEFT:
+                    break;
+                case SDLK_RIGHT:
+                    break;
+                default:
+                    break; 
+                }
             } 
+            else{
+            //do nothing
+            }
         } 
         
         SDL_BlitSurface( render.getDisplaySurface(), NULL, render.getSDLScreenSurface(), NULL );

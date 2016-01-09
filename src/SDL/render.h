@@ -4,7 +4,7 @@
 #define RENDER_H
 
 #include <SDL2/SDL.h>
-
+#include <string>
 using namespace std;
 
 class render {
@@ -13,8 +13,10 @@ public:
     ~render();
     bool init();
     bool loadMedia();
+    bool loadMedia(string); 
     void close();
 
+    
     SDL_Window* getSDLWindow();
     SDL_Surface* getSDLScreenSurface();
     SDL_Surface* getDisplaySurface();
@@ -24,7 +26,7 @@ private:
     
     SDL_Window* gWindow;
     SDL_Surface* gScreenSurface;
-    SDL_Surface* gHelloWorld;
+    SDL_Surface* gMediaSurface;
      
 };
 #endif
