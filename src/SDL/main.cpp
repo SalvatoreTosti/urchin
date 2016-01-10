@@ -15,7 +15,7 @@ int main( int argc, char* args[]){
     else {
         //do nothing
     }
-    if(!render.loadMedia()){
+    if(!render.loadMedia("hello.bmp")){
         printf("Failed to load media.\n");
     }
     else {
@@ -49,28 +49,11 @@ int main( int argc, char* args[]){
             //do nothing
             }
         } 
-        
-        SDL_BlitSurface( render.getDisplaySurface(), NULL, render.getSDLScreenSurface(), NULL );
+
+        SDL_Rect stretchRect = render.getStretchRect(); 
+        SDL_BlitScaled( render.getDisplaySurface(), NULL, render.getSDLScreenSurface(), &stretchRect); 
         SDL_UpdateWindowSurface(render.getSDLWindow());
     } 
     render.close();
     return 0;
 }
-
-
-//render proof of concept
-/*
-int main( int argc, char* args[]){
-    render render; 
-    if(!render.init()){ printf("Failed to initialize!\n");}
-    else{
-        if(!render.loadMedia()){printf("Failed to load media\n");}
-        else{ SDL_BlitSurface(render.getDisplaySurface(),NULL,render.getSDLScreenSurface(),NULL);
-        SDL_UpdateWindowSurface(render.getSDLWindow());
-        SDL_Delay(2000);
-        }
-    }
-    render.close();
-    return 0;
-}
-*/
