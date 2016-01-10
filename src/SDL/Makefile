@@ -16,6 +16,7 @@ TORM = *.o SDL_main
 
 #linux compile prefered
 
+
 linux: $(OBJS)
 	$(CC) $(OBJS) $(CCFLAGS) $(LKFLAGS) -o $(OBJNAME)
 
@@ -32,3 +33,5 @@ main.o: main.cpp
 clean:
 	rm -f ${TORM} 
 
+clean-run: linux
+	clear; make clean; make; ./$(OBJNAME)
